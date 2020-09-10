@@ -1,0 +1,404 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+body {font-family: 'Roboto Condensed', sans-serif;}
+
+.container { width: 1145px; margin:0 auto;}
+
+
+/* start navbar */
+
+
+.main-nav {
+    display: flex;
+    height: 80px;
+    background-color: #000000;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+
+}
+
+  
+
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    position: relative;
+    bottom: 20px;
+
+
+}
+
+.main-nav ul li {
+    list-style: none;
+    font-weight: bold;
+    margin-left: 30px;
+
+
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    padding: 20px 0;
+    margin-left: 8px;
+    text-align: center;
+    font-size: 17px;
+
+    
+}
+
+
+.main-nav ul li a:hover {color: #68d962;}
+
+
+.line-text {
+    border: 0.5px solid white;
+    height: 16px;
+}
+
+.white-text {color: #ffffff;}
+
+
+.grey-text {color: #d9dadc;}
+
+
+
+
+.main-nav img.spotify-logo {
+
+
+    width: 135px; height: 43px;
+
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 12px;
+
+
+}
+
+
+.contact-part img.spotify-logo {
+
+    align-items: center;
+    width: 135px; height: 43px;
+}
+
+
+
+/* end navbar */
+
+
+
+
+
+
+
+/* start content */
+
+
+
+.content img {width:100%; display: flex;}
+
+.content .container {
+
+    /* justify-content: flex-start;
+    position: relative;
+    top: -710px;
+    margin-right: 68px;
+    margin-top: 81px; */
+    position: relative;
+    top: -900px;
+    left: -150px;
+}
+
+
+
+
+.content .container :first-child {
+    
+    font-size: 10em;
+    position: absolute;
+    top: 136px;
+    left: 210px;
+    color: #68d962;
+} 
+
+
+
+.content .container h1:nth-child(2) {
+    font-size: 10em;
+    position: absolute;
+    top: 300px;
+    left: 485px;
+    color: #68d962;
+}
+
+
+
+.content .container h4 {
+    font-size: 1.2em;
+    position: absolute;
+    top: 620px;
+    left: 500px;
+    color: #68d962;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+
+.content .container button {
+    position: absolute;
+    top: 670px;
+    left: 600px;
+    color: #68d962;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 259px;
+    height: 50px;
+    /* border-radius: 30px 30px 30px 30px; */
+    border-radius: 30px;
+    text-align: center;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #68d962;
+    color: #2d46b9;
+    font-weight: bolder;
+    border: 0.5px solid #2d46b9;
+}
+
+
+.content .container button:hover {
+    background-color: white;
+    transition:  1s;
+    transition: ease-in 0.2s;
+    transition-duration: 0.3s;
+}
+/* end content */
+
+
+
+
+
+
+/* start contact part */
+.contact-part {
+    height: 510px;
+    background-color: black;
+    display: flex;
+
+}
+
+.contact-part .mini-container-1 {
+    
+    display: flex;
+    justify-content: start;
+    width: 70%;
+
+}
+
+.contact-part .mini-container-1 h5 {
+    color: #95989c;
+}
+
+.contact-part .mini-container-1 > div {
+    width: 25%;
+    display: flex;
+    position: relative;
+    top: 81px;
+
+}
+
+
+.contact-part .mini-container-1 ul {
+    margin-top: 25px;
+}
+
+
+
+.contact-part .mini-container-1  li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.contact-part .mini-container-1 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.contact-part .mini-container-1 div ul li a:hover {
+    color: #68d962;
+}
+
+
+
+
+.contact-part .socialmedia-bar {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    position: relative;
+    top: -180px;
+}
+
+
+.contact-part .socialmedia-bar li {
+    list-style: none;
+
+
+}
+
+.contact-part .socialmedia-bar li a {
+    padding: 10px;
+
+}
+
+
+.contact-part .socialmedia-bar i {
+    
+        font-size: 28px;
+        color: #b1b4b8;
+        width: 40px;
+        height: 30px;
+        background-color: #222326;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 35px;
+        padding: 10px;  
+        height: 50px;
+        width: 50px;
+}
+
+.contact-part .socialmedia-bar li i:hover {
+    color: #68d962;
+}
+/* end contact part */
+
+
+
+
+
+
+/* start footer */
+footer {
+    background-color: #000000;
+    display: flex;
+}
+
+
+footer .container {
+    display: flex;
+    position: relative;
+    top: -70px;
+
+    
+}
+
+
+
+footer .container .ul1  {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    width: 50%;
+    /* position: relative;
+    top: -20px; */
+
+}
+
+footer .ul1 li a {
+    text-decoration: none;
+    color: #95989c;
+    font-size: 12px;
+    margin-right: 40px;
+
+
+}
+
+footer .ul1 li a:hover {
+    color: #68d962;
+}
+
+
+.ul2  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    color: #95989c;
+    font-size: 12px;
+}
+
+.ul2  li  {
+
+    text-decoration: none;
+    color: #95989c;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.ul2  li  a{
+
+    text-decoration: none;
+    color: #95989c;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+
+.ul2  li a:hover {
+    color: #68d962; 
+}
+
+.ul2  li:first-child{ 
+    padding-bottom: 10px;
+
+
+
+}
+
+
+.ul2  li:last-child {
+    font-size: 12px;
+    word-spacing: 2px;
+}
+
+
+.ul2 img {
+    margin-left: 8px;
+}
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
